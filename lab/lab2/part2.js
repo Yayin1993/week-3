@@ -18,3 +18,21 @@ _.each(myArray, function(value, key, list) {
   console.log(value, key, list);
 });
 ===================== */
+var Mynumber=[2,3,5,7,11,14,13,17,19,22,23,29,31];
+
+var filterOutLessThan10 = function(num) {
+  if(num>10){
+    console.log(num);
+  }
+};
+_.each(Mynumber,filterOutLessThan10);
+
+console.log("This is another lab");
+
+var isEven = function(num) {
+  if(num%2===0){
+    console.log(num);
+  }
+};
+
+_.each(Mynumber,isEven);
